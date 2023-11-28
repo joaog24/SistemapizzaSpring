@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Pizza Delivery</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<h1>Sabores Disponiveis</h1>
+	</header>
+	<div class="principal">
+        <ul class="listagem-pizza">
+            <li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizzas de Muçarela</span>
+                <ul class="tipos">
+                    <li class="tipo ">Queijo</li>
+                </ul>
+                <p class="preco">Preço: R$ 50.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizzas de Brigadeiro</span>
+                <ul class="tipos">
+                    <li class="tipo ">Doce</li>
+                </ul>
+                <p class="preco">Preço: R$ 40.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizzas de Calabresa</span>
+                <ul class="tipos">
+                    <li class="tipo ">Tradicional</li>
+                </ul>
+                <p class="preco">Preço: R$ 35.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizzas de 4 Queijo</span>
+                <ul class="tipos">
+                    <li class="tipo ">Queijo</li>
+                </ul>
+                <p class="preco">Preço: R$ 50.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizzas de Brócolis</span>
+                <ul class="tipos">
+                    <li class="tipo">Vegano</li>
+                </ul>
+                <p class="preco">Preço: R$ 40.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizza Romeu e Julieta</span>
+                <ul class="tipos">
+                    <li class="tipo Queijo">Doce</li>
+                </ul>
+                <p class="preco">Preço: R$ 45.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizza de Frango e Catupiry</span>
+                <ul class="tipos">
+                    <li class="tipo Queijo">Tradicional</li>
+                </ul>
+                <p class="preco">Preço: R$ 38.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizza Napolitana</span>
+                <ul class="tipos">
+                    <li class="tipo Queijo">Queijo</li>
+                </ul>
+                <p class="preco">Preço: R$ 50.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizzas de 4 Queijos</span>
+                <ul class="tipos">
+                    <li class="tipo Queijo">Queijo</li>
+                </ul>
+                <p class="preco">Preço: R$ 45.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizza Califórnia</span>
+                <ul class="tipos">
+                    <li class="tipo ">Exóticas</li>
+                </ul>
+                <p class="preco">Preço: R$ 60.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizza Lombo Canadense</span>
+                <ul class="tipos">
+                    <li class="tipo Queijo">Diversos</li>
+                </ul>
+                <p class="preco">Preço: R$ 50.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizzas de Marguerita</span>
+                <ul class="tipos">
+                    <li class="tipo Queijo">Queijo</li>
+                </ul>
+                <p class="preco">Preço: R$ 38.00</p>
+            </li>
+			<li class="cartao-pizza pizza-visivel"> <!-- Adicione a classe "pizza-visivel" aqui -->
+                <img src="https://i.im.ge/2023/11/29/CDdfnT.8355992-stock-vector-pepperoni-pizza-removebg-preview.png" alt="" class="gif">
+                <span>Pizzas de Queijo</span>
+                <ul class="tipos">
+                    <li class="tipo Queijo">Queijo</li>
+                </ul>
+                <p class="preco">Preço: R$ 10.00</p>
+            </li>
+			
+        </ul>
+    </div>
+
+<div class="container my-2" align="center">
+
+<h3>Lista de Pedidos</h3>
+<a th:href="@{/addnew}" class="btn btn-primary btn-sm mb-3" >Realizar Pedido</a>
+	<table style="width:80%" border="1"
+		class = "table table-striped table-responsive-md">
+	<thead>
+<tr>
+	<th>Sabor</th>
+	<th>Quantidade</th>
+	<th>Ação</th>
+</tr>
+</thead>
+<tbody>
+<tr th:each="produto:${allemplist}">
+		<td th:text="${produto.nome}"></td>
+		<td th:text="${produto.quantidade}"></td>
+		<td> <a th:href="@{/showFormForUpdate/{id}(id=${produto.id})}"
+				class="btn btn-primary">Atualizar</a>
+				<a th:href="@{/deleteProduto/{id}(id=${produto.id})}"
+				class="btn btn-danger">Apagar</a>
+	</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+	*{
+	   margin: 0;
+	   padding: 0;
+	   box-sizing: border-box;
+   }
+   header {
+	   display: flex;
+	   justify-content: space-between;
+	   align-items: center;
+	   color: rgb(214, 38, 38);
+	   padding: 25px;
+	   margin-left: 10px;    
+   }
+   h1{
+	   font-size: 50px;
+	   font-weight: bolder;
+   }
+   
+   ul {
+	   list-style: none;
+	   font-weight: bold;
+   }
+   
+   body {
+	   font-family: 'Poppins', sans-serif;
+	   max-width: 1280px;
+	   margin: 0 auto;
+	   color: #333333;
+   }
+   .principal{
+	   
+	   border-bottom: 2px solid #333333;
+   }
+   
+   main .cartao-pizza:hover {
+	   transform: scale(1.05);
+	   cursor: pointer;
+   }
+   
+   main {
+	   padding: 25px;
+   }
+   
+   .listagem-pizza {
+	   display: flex;
+	   flex-wrap: wrap;
+	   gap: 30px;
+	   justify-content: center;
+   }
+   
+   .cartao-pizza {
+	   background-color: #d8e3ec;
+	   width: 280px;
+	   padding: 10px;
+	   display: flex;
+	   flex-direction: column;
+	   align-items: center;
+	   gap: 15px;
+	   border-radius: 15px;
+	   transition: 0.2s ease-in-out;
+   }
+   
+   .cartao-pizza:hover {
+	   background-color: #de8e7c;
+   }
+   
+   img {
+	   width: 90px;
+	   height: 90px;
+   }
+   
+   .cartao-pizza .informacoes {
+	   display: flex;
+	   justify-content: space-between;
+	   border: 1px solid #333333;
+	   border-radius: 10px;
+   }
+   
+   .cartao-pizza .informacoes span {
+	   padding: 5px;
+	   text-transform: uppercase;
+	   font-size: 10px;
+   }
+   .tipo{
+	   border: 2px solid black;
+	   border-radius: 10px;
+	   padding: 5px;
+   }
+   </style>
+</body>
+</html>
